@@ -4,6 +4,7 @@ function filterArray(numbers, value) {
     if (numbers[i] > value) {
       num = filterArray[i];
     }
+    return num;
   }
 }
 
